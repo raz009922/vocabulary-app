@@ -1,0 +1,19 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+
+    <!--<solid android:color="@color/colorAccent" />-->
+
+
+    <gradient
+        android:endColor="@color/colorTabTitleBGColor"
+        android:startColor="@color/colorTabTitleBGColor"
+        android:type="linear" />
+
+    <!-- <stroke
+         android:width="2dp"
+         android:color="#000000" />-->
+
+    <corners android:radius="270dp"/>
+
+
+</shape>

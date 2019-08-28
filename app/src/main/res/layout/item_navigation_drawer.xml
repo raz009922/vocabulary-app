@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_navigation_item_background"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/dimen_drawer_item_height"
+
+    android:background="@drawable/selector_navbar_item">
+
+    <ImageView
+        android:id="@+id/image_navigation_item"
+        android:layout_width="@dimen/dimen_drawer_item_image_width"
+        android:layout_height="@dimen/dimen_drawer_item_image_width"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="20dp"
+        android:scaleType="centerCrop" />
+
+    <TextView
+        android:id="@+id/text_navigation_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/dimen_drawer_text_margin_left"
+        android:layout_toRightOf="@+id/image_navigation_item"
+        android:fontFamily="roboto_regular"
+        android:text="text"
+        android:textColor="@color/colorNavBarItem"
+        android:textSize="@dimen/dimen_drawer_item_text_size" />
+
+    <RelativeLayout
+        android:id="@+id/layout_divider"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_drawer_group_divider_height"
+        android:layout_centerVertical="true"
+        android:background="@color/colorNavBarDivider"
+        android:visibility="gone"></RelativeLayout>
+
+</RelativeLayout>

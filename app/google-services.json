@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "664001807804",
+    "firebase_url": "https://aplication-vocubulary.firebaseio.com",
+    "project_id": "aplication-vocubulary",
+    "storage_bucket": "aplication-vocubulary.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:664001807804:android:d6ca78f2a9ef14ec",
+        "android_client_info": {
+          "package_name": "project.ahsan.language.com.vocabularyapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "664001807804-fvq34g7l5sq3as6aq27ve49uvir90kij.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "project.ahsan.language.com.vocabularyapp",
+            "certificate_hash": "b510daeaf2bb3769afb43c984ee9ce541f629467"
+          }
+        },
+        {
+          "client_id": "664001807804-h5fs9v2qd3tf9pci57tf9iik9jdqajck.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCHlTgNZbhLF0Y_G3Kjmi0f5FZQtiiF5mc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "664001807804-h5fs9v2qd3tf9pci57tf9iik9jdqajck.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

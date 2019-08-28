@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/dimen_drawer_width"
+    android:layout_height="match_parent"
+    android:background="@color/colorNavBarAppTheme1"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_drawer_header_height"
+        android:background="@color/colorNavBarAppTheme"
+        android:clickable="true">
+
+        <ImageView
+            android:id="@+id/image_drawer_header"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:scaleType="centerCrop" />
+
+
+        <TextView
+            android:id="@+id/textview_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="20dp"
+            android:padding="0dp"
+            android:shadowColor="@color/colorNavBarTitleTextShadow"
+            android:shadowDx="4"
+            android:shadowRadius="4"
+            android:fontFamily="@font/ralewaybold"
+            android:text="@string/string_video_effect"
+            android:textColor="@color/colorNavBarTitleText"
+            android:textSize="@dimen/dimen_drawer_header_text_size"
+            android:visibility="visible" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen_drawer_try_premium_layout_margin_top">
+
+        <RelativeLayout
+            android:id="@+id/layout_try_premium"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimen_drawer_try_premium_layout"
+            android:clickable="true"
+            android:background="@drawable/bg_go_premium">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="20dp"
+                android:fontFamily="@font/ralewaybold"
+                android:text="@string/string_try_premium"
+                android:textColor="@color/colorNavDrawerPremiumText"
+                android:textSize="@dimen/dimen_drawer_try_premium_text_size" />
+
+            <TextView
+                android:layout_width="@dimen/dimen_drawer_try_premium_image_width"
+                android:layout_height="@dimen/dimen_drawer_try_premium_image_height"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/bg_drawer_white_round"
+                android:gravity="center"
+                android:fontFamily="@font/ralewaybold"
+                android:text="P"
+                android:textColor="@color/colorNavBarAppTheme2"
+                />
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/layout_terms_and_privacy">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recyler_view_navigation_drawer"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingTop="20dp" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_terms_and_privacy"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:visibility="gone"
+            android:layout_alignParentBottom="true"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/text_terms"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="50dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Terms"
+                android:textColor="@color/colorNavBarItem1"
+                android:textSize="@dimen/dimen_drawer_item_text_size1" />
+
+
+            <TextView
+                android:id="@+id/text_privacy"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="50dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Privacy"
+                android:textColor="@color/colorNavBarItem1"
+                android:textSize="@dimen/dimen_drawer_item_text_size1" />
+
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

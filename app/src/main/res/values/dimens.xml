@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="card_height">180dp</dimen>
+    <dimen name="card_radius">12dp</dimen>
+
+    <!-- navigation drawer -->
+
+    <dimen name="dimen_drawer_try_premium_layout">60dp</dimen>
+    <dimen name="dimen_drawer_try_premium_layout_margin_top">20dp</dimen>
+    <dimen name="dimen_drawer_try_premium_text_size">17sp</dimen>
+    <dimen name="dimen_drawer_try_premium_image_height">30dp</dimen>
+    <dimen name="dimen_drawer_try_premium_image_width">30dp</dimen>
+
+    <dimen name="dimen_drawer_item_height">40dp</dimen>
+    <dimen name="dimen_drawer_text_margin_left">20dp</dimen>
+    <dimen name="dimen_drawer_width">270dp</dimen>
+    <dimen name="dimen_drawer_header_height">147dp</dimen>
+    <dimen name="dimen_drawer_header_text_size">37sp</dimen>
+    <dimen name="dimen_drawer_item_image_width">20dp</dimen>
+    <dimen name="dimen_drawer_item_divider_size">20dp</dimen>
+    <dimen name="dimen_drawer_divider_height">10dp</dimen>
+    <dimen name="dimen_drawer_group_divider_height">5dp</dimen>
+    <dimen name="dimen_drawer_item_text_size">14sp</dimen>
+    <dimen name="dimen_drawer_item_text_size1">12sp</dimen>
+
+</resources>

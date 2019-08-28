@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#720D5D</color>
+    <color name="colorPrimaryDark">#4E0E3A</color>
+    <color name="colorAccent">#e91e63</color>
+    <!--<color name="colorAccent">#FF4081</color>-->
+    <color name="colorBackground">#581049</color>
+    <color name="colorAppPrimary">#581049</color>
+    <color name="colorAppPrimary1">#4E0E3A</color>
+    <color name="colorAppPrimary2">#720D5D</color>
+    <color name="colorAppSecondary">#E30425</color>
+    <color name="colorAppWhite">#FFFFFF</color>
+    <color name="colorAppPink">#88fbe2f0</color>
+
+
+    <!-- color navigation drawer  -->
+    <color name="colorNavBarAppTheme">#720D5D</color>
+    <color name="colorNavBarAppTheme1">#ffffff</color>
+    <color name="colorNavBarAppTheme2">#E30425</color>
+    <color name="colorNavBarAppTheme2_OP50">#88E30425</color>
+    <color name="colorNavBarWhite">#FFFFFF</color>
+    <color name="colorNavBackground">#ffffff</color>
+    <color name="colorNavBackground1">#88fbe2f0</color>
+    <color name="colorNavBackgroundSelected">#88fbe2f0</color>
+    <color name="colorNavBar">#6161F7</color>
+    <color name="colorNavBarText">#000000</color>
+    <color name="colorNavBarTitleText">#FFFFFF</color>
+    <color name="colorNavBarTitleTextShadow">#88FFFFFF</color>
+    <color name="colorNavBarItem">#720D5D</color>
+    <color name="colorNavBarItem1">#88720D5D</color>
+    <color name="colorNavBarItem2">#44212121</color>
+    <color name="colorNavBarDivider">#333332</color>
+    <color name="colorNavDrawerPremiumBackground">#5C5CFF</color>
+    <color name="colorNavDrawerPremiumText">#FFFFFF</color>
+    <color name="colorNavDrawerDivider">#FFFFFF</color>
+
+    <!--  Word Items  -->
+    <color name="colorWordTextBackgroundRed">#a80000</color>
+    <color name="colorWordTextBackgroundGreen">#006064</color>
+    <color name="colorWordTextBackgroundBlue">#01579b</color>
+    <color name="colorWordIconTextColor">#FFFFFF</color>
+    <color name="colorWordNextTextColor">#FFFFFF</color>
+    <color name="colorWordTitleTextColor">#581049</color>
+    <color name="colorWordTitleSecTextColor">#CC581049</color>
+    <color name="colorWordSecondaryTextColor">#99000000</color>
+    <color name="colorWordSecondaryTextColor2">#DD000000</color>
+    <color name="colorWordProgressTextColor2">#b0003a</color>
+    <color name="colorWordGreyColor">#CCCCCC</color>
+    <color name="colorWordRed">#E30425</color>
+
+    <!-- TAB STRIP -->
+    <color name="colorTabTitleTextColor">#FFFFFF</color>
+    <color name="colorTabTitleBGColor">#720D5D</color>
+    <color name="colorTabTitleBGColorSelected">#FFFFFF</color>
+
+    <!--  Word -->
+    <color name="colorItemStatusText">#CC000000</color>
+    <color name="colorItemWordText">#581049</color>
+    <color name="colorItemNextBackGround">#581049</color>
+    <color name="colorItemNextBackGroundOP50">#88581049</color>
+    <color name="colorItemWordText1">#E30425</color>
+    <color name="colorItemSecondText">#AA000000</color>
+    <color name="colorItemCheckBox">#E30425</color>
+
+    <!-- Defination-->
+
+    <color name="colorDefPartOfSpeech">#CC000000</color>
+    <color name="colorDefMeaning">#CC000000</color>
+    <color name="colorDefExample">#CC000000</color>
+
+    <!-- Translation-->
+
+    <color name="colorTransLanguage">#AA000000</color>
+    <color name="colorTransWord">#CC581049</color>
+
+</resources>
